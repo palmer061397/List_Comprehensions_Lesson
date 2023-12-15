@@ -2,7 +2,7 @@
 conditional = [num ** 2 for num in range(10) if num % 2 == 0]
 print(conditional)
 
-#Conditionala in the output expression
+#Conditionals in the output expression
 conditional1 = [num ** 2 if num % 2 == 0 else 0 for num in range(10)]
 print(conditional1)
 
