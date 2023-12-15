@@ -17,7 +17,7 @@ fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gim
 new_fellowship = [member for member in fellowship if len(member) >= 7]
 print(new_fellowship)
 ##########################
-#Prints names with 7 characters or more, unless less it prinrs emtpy string
+#Prints names with 7 characters or more, else prints emtpy string
 empty_fellowship = [member if len(member) >= 7 else "" for member in fellowship]
 print(empty_fellowship)
 ##########################
